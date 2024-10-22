@@ -117,6 +117,8 @@
         "locating-persons-by-name-find": "Locating persons by name: find",
         "locating-persons-by-tag-filter": "Locating persons by tag: filter",
         "deleting-a-person-delete": "Deleting a person : delete",
+        "launching-github-repository-github": "Launching GitHub repository : github",
+        "viewing-a-contact-s-full-details-view": "Viewing a contact's full details : view",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
