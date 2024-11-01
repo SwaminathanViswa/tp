@@ -365,7 +365,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC09 - Export contacts")])]
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to export the contact list.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs requests for the format.")])]),_v(" "),_c('li',[_c('p',[_v("User selects the desired format.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs exports the contact list to the specified format and shows successful import.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to export the contact list.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs requests for the file path.")])]),_v(" "),_c('li',[_c('p',[_v("User gives the file path.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs exports the contact list in CSV format and shows successful export.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -431,13 +431,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC13 - Import contacts")])]
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to import the contact list.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs requests for the file.")])]),_v(" "),_c('li',[_c('p',[_v("User selects the desired file.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs import the contact list from the specified file and shows successful import.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to import the contact list.")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs requests for the file path.")])]),_v(" "),_c('li',[_c('p',[_v("User gives the desired file (by its path).")])]),_v(" "),_c('li',[_c('p',[_v("KonTActs import the contact list from the specified file path and shows successful import.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. KonTActs detects an unsupported or corrupted file.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KonTActs indicates it is unable to import from that file and requests for a new file.")])]),_v(" "),_c('li',[_c('p',[_v("3a2. User selects a new file.")])]),_v(" "),_c('li',[_c('p',[_v("Steps 3a1 - 3a2 are repeated until KonTActs is able to import contacts from the file.")]),_v(" "),_c('p',[_v("Use case resumes from step 4.")])])])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, User chooses to cancel the import.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("*a1. KonTActs stops the import.")]),_v(" "),_c('p',[_v("Use case ends.")]),_v(" "),_c('br')])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. KonTActs detects an unsupported, corrupted file or a file without the valid headers.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. KonTActs indicates it is unable to import from that file and requests for a new file.")])]),_v(" "),_c('li',[_c('p',[_v("3a2. User gives a new file.")])]),_v(" "),_c('li',[_c('p',[_v("Steps 3a1 - 3a2 are repeated until KonTActs is able to import contacts from the file.")]),_v(" "),_c('p',[_v("Use case resumes from step 4.")])])])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, User chooses to cancel the import.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("*a1. KonTActs stops the import.")]),_v(" "),_c('p',[_v("Use case ends.")]),_v(" "),_c('br')])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC14 - Create automatic flags for students’ work if marked")])])}
@@ -482,6 +482,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 24 Oct 2024, 23:38:51 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 1 Nov 2024, 22:49:51 GMT+8]")])])])}
 }];
   
